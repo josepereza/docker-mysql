@@ -80,16 +80,19 @@ cd ~/mysql-docker
 ```
 
 ### Levantar el contenedor
-docker-compose up -d
+```bash
+
+docker compose up -d
+```
 
 ### Verificar que esté funcionando
 ```bash
-docker-compose ps
+docker compose ps
 ```
 Ver logs para confirmar:
 bash
 ```bash
-docker-compose logs -f mysql
+docker compose logs -f mysql
 ```
 ## 🔧 6. Comandos útiles para gestión
 Conectar a MySQL:
@@ -107,22 +110,22 @@ Gestionar el contenedor:
 bash
 ### Ver estado
 ```bash
-docker-compose ps
+docker compose ps
 ```
 
 ### Detener MySQL
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Reiniciar
 ```bash
-docker-compose restart
+docker compose restart
 ```
 
 ### Ver logs
 ```bash
-docker-compose logs -f mysql
+docker compose logs -f mysql
 ```
 Backup de datos:
 bash
@@ -360,13 +363,13 @@ bash
 ## Verificar que el contenedor está corriendo
 ```bash
 
-docker-compose ps
+docker compose ps
 ```
 
 ## Ver logs de MySQL
 ```bash
 
-docker-compose logs mysql
+docker compose logs mysql
 ```
 
 
@@ -457,15 +460,15 @@ cd ~/mysql-docker
 ## Reiniciar con la nueva configuración
 ```bash
 
-docker-compose down
-docker-compose up -d
+docker compose down
+docker compose up -d
 ```
 
 
 ## Verificar que todo funcione
 ```bash
 
-docker-compose logs -f mysql
+docker compose logs -f mysql
 ```
 
 
