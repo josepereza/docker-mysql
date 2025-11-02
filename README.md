@@ -160,12 +160,15 @@ SELECT User, Host FROM mysql.user;
 
 🗂️ Estructura final del proyecto:
 text
+
+```
 ~/mysql-docker/
 ├── docker-compose.yml
 ├── .env
 ├── config/
 │   └── custom.cnf
 └── (mysql_data volume creado automáticamente)
+```
 
  ⚡ Comando rápido (si quieres probar rápido):
 Si quieres una versión mínima sin archivos de configuración:
